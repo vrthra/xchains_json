@@ -211,9 +211,9 @@ import sys
 if __name__ == '__main__':
     #main(sys.argv[1])
     #main('python_json_3_7_4') # works
-    #main('java_actson_1_2_0') # only returns valid & invalid (throws no exceptions)
+    main('java_actson_1_2_0') # only returns valid & invalid (throws no exceptions)
     #main('java_bfo') # works
-    main('java_com_leastfixedpoint_json_1_0') # endless loop under certain conditions
+    #main('java_com_leastfixedpoint_json_1_0') # endless loop under certain conditions
     #main('java_gson_2_8_6') # works
     #main('java_jackson_2_8_4') # seems to work :)
     #main('java_mergebase_json_2019_09_09') # somehow incorrect due to error "Never found", it does not work when tagging this either as "invalid" or "incomplete"
